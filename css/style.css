@@ -1,4 +1,4 @@
-/*kfkfkf*/
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/montserrat/Montserrat-Regular/Montserrat-Regular.ttf') format("tiff");
@@ -95,7 +95,6 @@ header {
 }
  
 /*banner*/
-
 .banner {
   height: 620px;
 }
@@ -117,7 +116,6 @@ header {
   line-height: 86px;
   color: #FFFFFF;
 }
-
 .banner-descr {
   width: 837px;
   height: 58px;
@@ -131,7 +129,6 @@ header {
   line-height: 29px;
   color: #FFFFFF;
 }
-
 .banner-descr-new {
   display: none;
 }
