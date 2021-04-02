@@ -17,7 +17,14 @@
     <header>
       <div class="header-burger-logo">
         <a href="#" class="header-burger"></a>
-        <a class="header-left" href="#"><img src="../icons/evqlid-logo.svg" alt="logo"></a>
+        <a class="header-logo-link" href="#">
+          <picture class="header-left">
+            <source media="(max-width: 320px)" srcset="../icons/top-logo-320.svg">
+            <source media="(max-width: 768px)" srcset="../icons/top-logo-768.svg">
+            <source media="(max-width: 1024px)" srcset="../icons/top-logo-1024.svg">
+            <img src="../icons/evqlid-logo.svg" alt="logo">
+          </picture>
+        </a>
       </div>
 
       <div class="header-nav">
@@ -41,8 +48,10 @@
         <div class="carousel-item">
           <picture class="d-block">
             <source media="(max-width: 320px)" srcset="img/1-slider-balconies-320px.jpg">
-            <source media="(width: 768px)" srcset="img/1-slider-balconies-768.jpg">
-            <source media="(max-width: 1024px)" srcset="img/1-slider-balconies-1024px.jpg">
+            <source media="(max-width: 480px)" srcset="img/1-slyder-480.png"> 
+            <source media="(max-width: 768px)"  srcset="img/1-slider-balconies-768.jpg">
+            <source media="(max-width: 1024px)" srcset="img/1-slyder-1024.png">
+            <source media="(max-width: 1200px)" srcset="img/1-slider-1200.png">
 
             <img src="img/1-slider-balconies.png" alt="...">
           </picture>
@@ -107,32 +116,29 @@
         </div>
 
         <div class="roofer-right">
-
           <div class="roofer-right-consultation">
             <!--<div class="roofer-right-image"> </div>-->
             <div class="roofer-right-descr">
-              <div class="roofer-cons-descr">
-                <h3 class="subheader roofer-subheader">Консультация с широким активом</h3>
-                <p class="roofer-right-text">А также свежий взгляд на привычные вещи - безусловно открывает новые
-                  горизонты
-                  для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
-              </div>
-
+              <h3 class="subheader roofer-subheader subheader-top">Консультация с широким активом</h3>
+              <p class="roofer-right-text text-top">А также свежий взгляд на привычные вещи - безусловно открывает новые
+                горизонты
+                для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
             </div>
           </div>
+
           <div class="roofer-right-desire">
             <!-- <div class="roofer-right-image"> </div>-->
             <div class="roofer-right-descr">
               <div class="roofer-des-descr">
-                <h3 class="subheader roofer-subheader">В своём стремлении повысить</h3>
-                <p class="roofer-right-text">Качество жизни, они забывают, что сплочённость команды профессионалов
+                <h3 class="subheader roofer-subheader subheader-down">В своём стремлении повысить</h3>
+                <p class="roofer-right-text text-down">Качество жизни, они забывают, что сплочённость команды профессионалов
                   представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
               </div>
-
             </div>
           </div>
         </div>
       </div>
+
 
       <!--Как мы работаем-->
       <div class="work">
@@ -175,43 +181,44 @@
       <div class="questions">
         <h2 class="questions-title">Часто задаваемые вопросы</h2>
         <div class="questions-item">
+          <div class="question-border-top"></div>
           <a href="#">
-            <div class="question-border-top"></div>
-            <div class="subheader question-subheader">Из чего формируется конечная стоимость проекта? </div>
-            <div class="question-item-border"></div>
+            <div class="subheader question-subheader question-1">Из чего формируется конечная стоимость проекта? </div>
           </a>
+          <div class="question-item-border"></div>
         </div>
-
-
 
         <div class="questions-item">
           <a href="#">
-            <div class="subheader question-subheader">У меня есть свой проект. Сможем ли мы его доработать /
+            <div class="subheader question-subheader question-2">У меня есть свой проект. Сможем ли мы его доработать /
               реализовать?</div>
-            <div class="question-item-border"></div>
           </a>
+          <div class="question-item-border border-2"></div>
         </div>
 
-        <div class="questions-item">
+        <div class="questions-item question-item-3">
           <a href="#">
-            <div class="subheader question-subheader">Я выбираю между разными компаниями. В чём ваше отличие?</div>
-            <div class="question-item-border"></div>
+            <div class="subheader question-subheader question-3">Я выбираю между разными компаниями. В чём ваше отличие?
+            </div>
           </a>
+          <div class="question-item-border border-3"></div>
         </div>
 
-        <div class="questions-item">
+        <div class="questions-item question-item-4">
           <a href="#">
-            <div class="subheader question-subheader">Могу ли я делегировать вам работу / согласование с подрядчиком /
+            <div class="subheader question-subheader question-4">Могу ли я делегировать вам работу / согласование с
+              подрядчиком /
               организацией? </div>
-            <div class="question-item-border"></div>
           </a>
+          <div class="question-item-border border-4"></div>
         </div>
 
         <div class="questions-item question-item-last">
           <a href="#">
-            <div class="subheader question-subheader">Могу ли я вернуть деньги на каком-либо из этапов работ?</div>
-            <div class="question-item-border"></div>
+            <div class="subheader question-subheader question-5">Могу ли я вернуть деньги на каком-либо из этапов работ?
+            </div>
           </a>
+          <div class="question-item-border border-5"></div>
         </div>
       </div>
     </main>
@@ -308,7 +315,8 @@
     </footer>
   </div>
   </div>
-
+  </div>
+  </div>
 </body>
 
 </html>
